@@ -34,7 +34,7 @@ function MapComponent() {
 
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyA_Z1_l75AWkfTNqvjX5Sp0wMejwP33ZTo"
+      googleMapsApiKey="API-KEY"
       libraries={['drawing']}
       onLoad={handleOnLoad}
     >
