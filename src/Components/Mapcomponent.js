@@ -34,7 +34,7 @@ function MapComponent() {
 
   return (
     <LoadScript
-      googleMapsApiKey="API-KEY"
+      googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
       libraries={['drawing']}
       onLoad={handleOnLoad}
     >
